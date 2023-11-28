@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b766408cd01f09a47afba6e6eb3b3ba9, type: 3}
+  m_Name: EnglishKeys
+  m_EditorClassIdentifier: 
+  langName: English
+  languageDict:
+    m_keys:
+    - test
+    - Enigma
+    - thisIsIt
+    - goOverPlan
+    - twoMinutes
+    - doorNeedsCode
+    - luckilyConvinced
+    - notWhereLeft
+    - commentFromCleaner
+    - heh
+    - codeInDesk
+    - quickJaunt
+    - fourGuards
+    - dontGetCaught
+    - gotCode
+    - badHallway
+    - pressShift
+    - doorMechanism
+    - inputCode
+    - gotGem
+    - beautifulCraft
+    - justInTime
+    - timeForShow
+    m_values:
+    - Time to put on a show.
+    - Enigma
+    - This is it...
+    - I should go over the plan.
+    - I've got two minutes before I need to be back in the main concert hall for
+      my performance.
+    - The door that the gem is locked behind has a fancy mechanism. It needs a code
+      to unlock, not just lockpicks. And they change the code every day.
+    - But luckily, I've spent the past few weeks convincing the owner of the concert
+      hall that she doesn't have a very good memory.
+    - Things not being where she left them... showing up for meetings at the wrong
+      time...
+    - And a well-timed comment from one of the cleaners saying that they always write
+      down the important things they want to remember.
+    - Heh.
+    - The code is written down on a piece of paper that she keeps inside her desk.
+    - Then from there, it's a quick jaunt over to where the gem is locked up, then
+      back into the concert hall.
+    - Between here and there, there should be three, maybe four guards.
+    - Just don't get caught.
+    - Got the code.
+    - I don't like the look of that hallway, though...
+    - There's a part where the hallway turns that doesn't seem very well lit. Maybe
+      if I walk up to it and press SHIFT I can slip into the shadows?
+    - This is the mechanism for opening the door.
+    - All I have to do is input the code I found by pressing E...
+    - And there we go. Heh.
+    - Beautiful craftsmanship on this one. Shame they wanted to keep it locked away
+      in here, hm?
+    - Looks like I'm just in time. If I head straight through here, I'll make it
+      back to the main concert hall in time for my performance.
+    - Time to put on a show.
