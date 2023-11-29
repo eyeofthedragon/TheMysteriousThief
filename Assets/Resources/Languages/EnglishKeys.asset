@@ -47,10 +47,10 @@ MonoBehaviour:
       my performance.
     - The door that the gem is locked behind has a fancy mechanism. It needs a code
       to unlock, not just lockpicks. And they change the code every day.
-    - But luckily, I've spent the past few weeks convincing the owner of the concert
-      hall that she doesn't have a very good memory.
-    - Things not being where she left them... showing up for meetings at the wrong
-      time...
+    - Luckily, the concert hall owner has recently become convinced that her memory
+      isn't very good.
+    - Things not being where she left them... meetings not being at the times she
+      thought they were...
     - And a well-timed comment from one of the cleaners saying that they always write
       down the important things they want to remember.
     - Heh.

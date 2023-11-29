@@ -24,15 +24,6 @@ public class CreditsController : MonoBehaviour {
 
     private float timer = 0;
 
-    //private bool firstFade = false;
-    //private bool secondFade= false;
-
-    //private bool lights1 = false;
-    //private bool lights2 = false;
-
-    //private bool evenEvents = false;
-    //private bool oddEvents = true;
-
     private bool[] eventsTriggered = new bool[13];
 
     private void Start() {
@@ -41,8 +32,6 @@ public class CreditsController : MonoBehaviour {
 
         creditsTitle1.alpha = 0;
         creditsTitle2.alpha = 0;
-
-        //lights.DOFade(0, 1);
 
         animator = GetComponent<Animator>();
         playerSprite = GetComponent<SpriteRenderer>();
@@ -56,7 +45,7 @@ public class CreditsController : MonoBehaviour {
 
         //Order of events:
         //Programming, Design, Sprites, Writing by Eileen Carette
-        //Background Tiles ?? 
+        //Background Tiles 
             // Medieval pixel art asset by Blackspire
             // Classic Legacy Pack - Village by Anomaly Pixel
         // Background Art
@@ -70,11 +59,14 @@ public class CreditsController : MonoBehaviour {
             // xNode by Siccity
         // Sound
             // Dialog Text Sound Effects by Alan Dalcastagne
-            // (LIGHTS NOISE)
+            // RPG Essentials Sound Effects by leohpaz
+            // Spotlight by realsoundFX
+            // Big switch sound effect by Her Ses
         // Music
             // Parallax Mix (New) 4 by Hayden Folker
             // Horde Of Geese by Alexander Nakarada (www.creatorchords.com)
             // Allegretto by B. Godard, performed by Ion Bogdan Stefanescu
+            // Game Over - Repeating Dream by Yakikaze
         // Special Thanks
             // Gateway Games LARP
 
@@ -84,7 +76,7 @@ public class CreditsController : MonoBehaviour {
         //Lights on, empty stage
         //Fade to main menu
 
-        //88 seconds
+        //Song is 88 seconds
 
 
         if (timer > 102) {
@@ -125,7 +117,7 @@ public class CreditsController : MonoBehaviour {
             credits2.DOFade(0, 3);
             creditsTitle2.DOFade(0, 3);
             creditsTitle1.text = "MUSIC";
-            credits1.text = "Parallax Mix (New) 4 by Hayden Folker\nHorde Of Geese by Alexander Nakarada (www.creatorchords.com)\nAllegretto by B. Godard, performed by Ion Bogdan Stefanescu";
+            credits1.text = "Parallax Mix (New) 4 by Hayden Folker\nHorde Of Geese by Alexander Nakarada (www.creatorchords.com)\nGame Over - Repeating Dream by Yakikaze\nAllegretto by B. Godard, performed by Ion Bogdan Stefanescu";
             creditsTitle1.DOFade(1, 3);
             credits1.DOFade(1, 3);
             eventsTriggered[6] = true;

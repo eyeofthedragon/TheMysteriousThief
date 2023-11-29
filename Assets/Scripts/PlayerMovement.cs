@@ -85,21 +85,16 @@ public class PlayerMovement : MonoBehaviour {
 
             horizontal = Input.GetAxis("Horizontal");
 
+            //the walljump function handles the direction, so just ignore the player input
+            if (isWallJumpingLeft || isWallJumpingRight) {
+                horizontal = 0;
+            }
+
             if (horizontal < 0) {
-                if (isWallJumpingRight) {
-                    horizontal = 0; //can't move backwards in midair when walljumping
-                }
-                else {
                     facingLeft = true;
-                }
             }
             else if (horizontal > 0) { //don't change when horizontal = 0 (ie not moving)
-                if (isWallJumpingLeft) {
-                    horizontal = 0;
-                }
-                else {
                     facingLeft = false;
-                }
             }
             
 
@@ -148,7 +143,7 @@ public class PlayerMovement : MonoBehaviour {
             }
 
             //hide in the shadows
-            if (Input.GetKey(KeyCode.LeftShift) && nearbyShadows) {
+            if ((Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) && nearbyShadows) {
                 inShadows = true;
                 spriteRenderer.sortingOrder = -10; //ensure the player sprite appears behind the shadows while they are concealed
                 boxCollider.excludeLayers = guardLayer;

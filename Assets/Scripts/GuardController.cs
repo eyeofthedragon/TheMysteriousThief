@@ -40,7 +40,6 @@ public class GuardController : MonoBehaviour {
 
     void FixedUpdate() {
         if (!dialogueManager.dialogueIsPlaying) {
-
             if (mode == "searchMode") {
                 switch (patrolDestination) {
                     case 0:
@@ -66,15 +65,17 @@ public class GuardController : MonoBehaviour {
                 }
             }
         }
-        else {
-            moving = false;
-        }
 
     }
 
     void AnimateSprite() {
         animator.SetFloat("lookDir", lookDir.x);
-        animator.SetBool("moving", moving);
+        if (dialogueManager.dialogueIsPlaying) {
+            animator.SetBool("moving", false);
+        }
+        else {
+            animator.SetBool("moving", moving);
+        }
     }
 
     void Update() {

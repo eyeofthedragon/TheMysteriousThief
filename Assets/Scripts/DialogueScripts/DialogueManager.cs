@@ -10,8 +10,6 @@ public class DialogueManager : MonoBehaviour
 {
     public TMP_Text dialogueText;
     public Button nextButton;
-    //public Button[] optionButtons;
-    //public TMP_Text[] optionsText;
     public TMP_Text speakerName;
 
     public DisplayInfo displayInfo;
@@ -63,23 +61,9 @@ public class DialogueManager : MonoBehaviour
             //set buttons
             if (dialogueNode.responses != null) {
                 nextButton.gameObject.SetActive(false);
-
-
-                //for (int i=0; i<dialogueNode.responses.sentenceKeys.Length; i++) {
-                //    if (dialogueNode.responses.sentenceKeys[i] != null) {
-                //        optionButtons[i].gameObject.SetActive(true);
-
-                //        string textToSet = displayInfo.currentLanguage.languageDict[dialogueNode.responses.sentenceKeys[i]];
-                //        optionsText[i].text = textToSet;
-                //    }
-                //}
             }
             else {
                 nextButton.gameObject.SetActive(true);
-
-                //foreach (Button button in optionButtons) {
-                //    button.gameObject.SetActive(false);
-                //}
             }
 
             sentences.Clear();
@@ -109,43 +93,6 @@ public class DialogueManager : MonoBehaviour
             }
             yield return new WaitForSeconds(textSpeed);
         }
-    }
-
-    public void DisplayNextOption(string option) {
-        if (option == "A") {
-            DialogueNode dialogueNode = currentNode as DialogueNode;
-            NodePort portA = dialogueNode.GetOutputPort("optionA").Connection;
-
-            if (portA != null) {
-                currentNode = portA.node;
-            }
-        }
-        else if (option == "B") {
-            DialogueNode dialogueNode = currentNode as DialogueNode;
-            NodePort portB = dialogueNode.GetOutputPort("optionB").Connection;
-
-            if (portB != null) {
-                currentNode = portB.node;
-            }
-        }
-        else if (option == "C") {
-            DialogueNode dialogueNode = currentNode as DialogueNode;
-            NodePort portC = dialogueNode.GetOutputPort("optionC").Connection;
-
-            if (portC != null) {
-                currentNode = portC.node;
-            }
-        }
-        else if (option == "D") {
-            DialogueNode dialogueNode = currentNode as DialogueNode;
-            NodePort portD = dialogueNode.GetOutputPort("optionD").Connection;
-
-            if (portD != null) {
-                currentNode = portD.node;
-            }
-        }
-
-        StartDialogue(currentNode);
     }
 
     public void DisplayNext() {

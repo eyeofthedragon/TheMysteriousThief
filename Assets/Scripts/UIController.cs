@@ -18,6 +18,7 @@ public class UIController : MonoBehaviour {
     }
 
     public void MainMenu() {
+        Time.timeScale = 1; //turn time back on so that it will load even when the game is paused
         StartCoroutine(fadeOut("MainMenu"));
     }
 
