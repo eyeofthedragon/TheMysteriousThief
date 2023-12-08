@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b766408cd01f09a47afba6e6eb3b3ba9, type: 3}
+  m_Name: FrenchKeys
+  m_EditorClassIdentifier: 
+  langName: French
+  languageDict:
+    m_keys:
+    - Enigma
+    - thisIsIt
+    - goOverPlan
+    - twoMinutes
+    - doorNeedsCode
+    - luckilyConvinced
+    - notWhereLeft
+    - commentFromCleaner
+    - heh
+    - codeInDesk
+    - quickJaunt
+    - fourGuards
+    - dontGetCaught
+    - gotCode
+    - badHallway
+    - pressShift
+    - doorMechanism
+    - inputCode
+    - gotGem
+    - beautifulCraft
+    - justInTime
+    - timeForShow
+    - language
+    - english
+    - french
+    - theMysteriousThief
+    - startGame
+    - quit
+    - gameOver
+    - restart
+    - mainMenu
+    - gameBy
+    - bgTiles
+    - tilesInfo
+    - bgArt
+    - artInfo
+    - uiAssets
+    - uiInfo
+    - tools
+    - toolsInfo
+    - sound
+    - soundInfo
+    - music
+    - musicInfo
+    - specialThanks
+    - thanksInfo
+    - resume
+    - paused
+    m_values:
+    - "\xC9nigme"
+    - "\xC7a y est..."
+    - Je devrais revoir le plan.
+    - Il me reste deux minutes avant que je devrais retourner dans la salle de concert
+      principale pour ma performance.
+    - "La porte derri\xE8re laquelle la gemme est verrouill\xE9e est dot\xE9e d'un
+      m\xE9canisme sophistiqu\xE9. Il a besoin d\u2019un code pour le d\xE9verrouiller,
+      pas seulement de crochets. Et ils changent le code tous les jours."
+    - "Heureusement, la propri\xE9taire de la salle de concert est r\xE9cemment convaincue
+      que sa m\xE9moire n'est pas tr\xE8s bonne."
+    - "Les choses n'\xE9tant pas l\xE0 o\xF9 elle les avait laiss\xE9es... les r\xE9unions
+      n'\xE9tant pas aux moments o\xF9 elle pensait qu'elles \xE9taient..."
+    - "Et un commentaire opportun de l'un des nettoyeurs disant qu'il \xE9crit toujours
+      les choses importantes dont il veut se souvenir."
+    - Heh.
+    - "Le code est \xE9crit sur un morceau de papier qu'elle garde dans son bureau."
+    - "Ensuite, \xE0 partir de l\xE0, c'est une petite escapade jusqu'\xE0 l'endroit
+      o\xF9 la gemme est enferm\xE9e, puis de retour dans la salle de concert."
+    - "Entre ici et l\xE0, il devrait y avoir trois, peut-\xEAtre quatre gardes."
+    - Ne vous laissez pas prendre.
+    - J'ai le code.
+    - Mais je n'aime pas l'apparence de ce couloir...
+    - "Il y a une partie o\xF9 tourne le couloir qui ne semble pas tr\xE8s bien \xE9clair\xE9e.
+      Peut-\xEAtre que si je m'approche et appuie sur SHIFT, je pourrai me cacher
+      dans l'ombre ?"
+    - "Voici le m\xE9canisme d'ouverture de la porte."
+    - "Il ne me reste plus qu'\xE0 saisir le code que j'ai trouv\xE9 en appuyant
+      sur E..."
+    - "Et voil\xE0. Heh."
+    - "Beau savoir-faire sur celui-ci. Dommage qu'ils aient voulu le garder enferm\xE9
+      ici, hein ?"
+    - "On dirait que j'arrive juste \xE0 temps. Si je passe directement par ici,
+      je reviendrai \xE0 la salle de concert principale \xE0 temps pour ma performance."
+    - Il est temps de faire un spectacle.
+    - LANGUE
+    - Anglais
+    - "Fran\xE7ais"
+    - "LE VOLEUR MYST\xC9RIEUX"
+    - Commencer
+    - Quitter
+    - GAME OVER!
+    - "Red\xE9marrage"
+    - Menu Principal
+    - "PROGRAMMATION, CONCEPTION, SPRITES, \xC9CRITS"
+    - CARREAU DU FOND
+    - Medieval pixel art asset par Blackspire\nClassic Legacy Pack - Village par
+      Anomaly Pixel
+    - ART DU FOND
+    - "2D Neighborhood par Afnan Mahin\\nEn sc\xE8ne par Anne Contet"
+    - ATOUTS DE UI
+    - SteampunkUI par Gentleland
+    - OUTILS
+    - SerializableDictionary par Mathieu Le Ber\nDOTween par Demigiant\nxNode by
+      Siccity
+    - SON
+    - Dialog Text Sound Effects par Alan Dalcastagne\nRPG Essentials Sound Effects
+      par leohpaz\nSpotlight par realsoundFX\nBig switch sound effect par Her Ses
+    - MUSIQUE
+    - "Parallax Mix (New) 4 par Hayden Folker\\nHorde Of Geese par Alexander Nakarada
+      (www.creatorchords.com)\\nGame Over - Repeating Dream par Yakikaze\\nAllegretto
+      par B. Godard, jou\xE9 par Ion Bogdan Stefanescu"
+    - REMERCIEMENTS
+    - Gateway Games LARP
+    - Reprendre
+    - PAUSE

@@ -151,6 +151,8 @@ public class PlayerMovement : MonoBehaviour {
             else {
                 inShadows = false;
                 spriteRenderer.sortingOrder = 0;
+                boxCollider.excludeLayers = 0;
+                //boxCollider.includeLayers = guardLayer;
             }
 
         }

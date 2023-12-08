@@ -16744,6 +16744,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7846257262283845905, guid: f2d2a7b1da656454bb0138dca547452a, type: 3}
   m_PrefabInstance: {fileID: 1543029082}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1351084162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1351084163}
+  - component: {fileID: 1351084164}
+  m_Layer: 0
+  m_Name: PauseMenuText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1351084163
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351084162}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 305.5464, y: 191.2735, z: 1.831552}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1351084164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351084162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec45109ed9e6f1b4cb0b7a3196178d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayInfo: {fileID: 11400000, guid: aa3a8d5c19dedf149985755bee44cace, type: 2}
+  paused: {fileID: 1183242147}
+  resume: {fileID: 63310111}
+  restart: {fileID: 497592118}
+  mainMenu: {fileID: 2036010752}
 --- !u!1 &1404676086
 GameObject:
   m_ObjectHideFlags: 0
@@ -20316,7 +20365,7 @@ PrefabInstance:
     - target: {fileID: 5679287866568336317, guid: 76c6fba454466bc48849482a4be888f5, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -258710535, guid: 6a7f602e739d77d48a9fe2f3f66af4a7, type: 3}
+      objectReference: {fileID: -263902982, guid: abc1671573237e04e85d95fe48782974, type: 3}
     - target: {fileID: 5679287866568336317, guid: 76c6fba454466bc48849482a4be888f5, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
@@ -20468,3 +20517,4 @@ SceneRoots:
   - {fileID: 1246329252}
   - {fileID: 1616719085}
   - {fileID: 841360466}
+  - {fileID: 1351084163}

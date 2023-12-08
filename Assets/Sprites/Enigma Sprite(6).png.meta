@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6a7f602e739d77d48a9fe2f3f66af4a7
+guid: abc1671573237e04e85d95fe48782974
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enigma Sprite Final_0
+      name: Enigma Sprite(6)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01edecfc4c1ea9d43a96417d202e0e02
-      internalID: -258710535
+      spriteID: 0168be1cf49ae1347805a956efc9902a
+      internalID: -263902982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_1
+      name: Enigma Sprite(6)_1
       rect:
         serializedVersion: 2
         x: 144
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5bbec755ead4ba48895cb8f16743ba2
-      internalID: -750214792
+      spriteID: a9fe35a8f2ac3724ab73b4403b811f7a
+      internalID: -1674991436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_2
+      name: Enigma Sprite(6)_2
       rect:
         serializedVersion: 2
         x: 288
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80946afad4d0a5348a2a55beeafbcc49
-      internalID: 224115995
+      spriteID: 8fff5bbda62c0424d943c4e28c154134
+      internalID: -992813917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_3
+      name: Enigma Sprite(6)_3
       rect:
         serializedVersion: 2
         x: 432
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c96e59a7f0598064db1d688b7598d5db
-      internalID: 1658699301
+      spriteID: 838641f1e97fa5a469f826135c0c6ac8
+      internalID: 1250253821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_4
+      name: Enigma Sprite(6)_4
       rect:
         serializedVersion: 2
         x: 576
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68b2663bd90dc5c4b9a5f26ce25f84d6
-      internalID: 618796306
+      spriteID: c84a8370ce8918646acd4f23905b42e3
+      internalID: 1824241815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_5
+      name: Enigma Sprite(6)_5
       rect:
         serializedVersion: 2
         x: 720
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45baf6f22fa0f214b92a89b6e4672618
-      internalID: 875464879
+      spriteID: 12ca6359430113447af54c10e2d811ca
+      internalID: -1643763500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_6
+      name: Enigma Sprite(6)_6
       rect:
         serializedVersion: 2
         x: 0
@@ -250,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ccd3806d881acc41ac5a56e4ea76dbf
-      internalID: -677106473
+      spriteID: b4a3980a27c2bfb42aab13639ba67ff9
+      internalID: -634763322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_7
+      name: Enigma Sprite(6)_7
       rect:
         serializedVersion: 2
         x: 144
@@ -271,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da2f3201f12b30f4cb74de61632c6154
-      internalID: 1378674252
+      spriteID: 30093ff1cbf14f946ba2b4cfb8c7a231
+      internalID: -1091915682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_8
+      name: Enigma Sprite(6)_8
       rect:
         serializedVersion: 2
         x: 288
@@ -292,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5471a762e2b01244f942658bc3ac04b8
-      internalID: -202134672
+      spriteID: bf07c5a25752f294d90674bcb7c32f84
+      internalID: -397053656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_9
+      name: Enigma Sprite(6)_9
       rect:
         serializedVersion: 2
         x: 432
@@ -313,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c212a21af988cb4386a4b72dd807a6b
-      internalID: -1669725368
+      spriteID: 9b2bc8601b4de8a4686238d42a7da0cc
+      internalID: 588096376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_10
+      name: Enigma Sprite(6)_10
       rect:
         serializedVersion: 2
         x: 576
@@ -334,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bbf6c248e3f2734c811f011d3799d54
-      internalID: 600583537
+      spriteID: beabb37d95793b3418fa20be4d642d20
+      internalID: 1607244391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_11
+      name: Enigma Sprite(6)_11
       rect:
         serializedVersion: 2
         x: 720
@@ -355,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4f24e913750060478f65d1dcfeb0747
-      internalID: 565571757
+      spriteID: c57bed9d2b049874fbc3fd7ec2abe365
+      internalID: -2076319415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_12
+      name: Enigma Sprite(6)_12
       rect:
         serializedVersion: 2
         x: 0
@@ -376,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e8d6a06a5cb2b74d9ae7a545c120383
-      internalID: -723166309
+      spriteID: cc9fee582d9a02646ad14f8c591646c1
+      internalID: -259275323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_13
+      name: Enigma Sprite(6)_13
       rect:
         serializedVersion: 2
         x: 144
@@ -397,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ad635f985717f24ca192c758356bc8c
-      internalID: -1409123532
+      spriteID: 508cbf2073fcae946b8aff3095764c9d
+      internalID: 1162002545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_14
+      name: Enigma Sprite(6)_14
       rect:
         serializedVersion: 2
         x: 288
@@ -418,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fecfa9867046e1409707462e4a2a0a6
-      internalID: 1854735133
+      spriteID: 4fd33369a2d80c54aac881780d99ce60
+      internalID: -1853668996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_15
+      name: Enigma Sprite(6)_15
       rect:
         serializedVersion: 2
         x: 432
@@ -439,14 +439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39afae6c6ae2406499b7caa12f394c4c
-      internalID: -2025950522
+      spriteID: 942cf83d11d403144b5e9d13cee09389
+      internalID: 1566341644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_16
+      name: Enigma Sprite(6)_16
       rect:
         serializedVersion: 2
         x: 576
@@ -460,14 +460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b7eab2aab2bd034091cd2e17984f67e
-      internalID: -479610734
+      spriteID: 3fdff4154ae5daf41833915c0d408316
+      internalID: 988798222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_17
+      name: Enigma Sprite(6)_17
       rect:
         serializedVersion: 2
         x: 720
@@ -481,14 +481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a50a1bad037073428fe6c715c3ac673
-      internalID: -1433230992
+      spriteID: 1ee0fbe518f70df4da7bdc796008ef2d
+      internalID: -72048869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_18
+      name: Enigma Sprite(6)_18
       rect:
         serializedVersion: 2
         x: 0
@@ -502,14 +502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7f469330dedfe54bb3890245ec6e377
-      internalID: 760093533
+      spriteID: 646171b6b28356d48a904f3f20d3cb36
+      internalID: -1301722057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_19
+      name: Enigma Sprite(6)_19
       rect:
         serializedVersion: 2
         x: 144
@@ -523,14 +523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bb20f68076bf5a4193311a2dbce35d0
-      internalID: 593959290
+      spriteID: a8c144a08e1ff9742a49522d7bdfba68
+      internalID: 1226934775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_20
+      name: Enigma Sprite(6)_20
       rect:
         serializedVersion: 2
         x: 288
@@ -544,14 +544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33b2a30f885d3e346a76506fb82865bc
-      internalID: -1526026566
+      spriteID: 535b362db3ed22342bcb16d83c32cf09
+      internalID: 2037190067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_21
+      name: Enigma Sprite(6)_21
       rect:
         serializedVersion: 2
         x: 432
@@ -565,14 +565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb0da614f409e6448b32552148aa6f85
-      internalID: -1609350176
+      spriteID: f24d8fb6af42618438e7b71056190ae8
+      internalID: 581365227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_22
+      name: Enigma Sprite(6)_22
       rect:
         serializedVersion: 2
         x: 576
@@ -586,14 +586,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7fa260a8b4f73b4a937c4ce5e9840b6
-      internalID: 1612557827
+      spriteID: 3acdd24c3a1ef82438b6b93f826b92ba
+      internalID: -1325736189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enigma Sprite Final_23
+      name: Enigma Sprite(6)_23
       rect:
         serializedVersion: 2
         x: 720
@@ -607,8 +607,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8b1b2444ccfd7244a586b68ead13328
-      internalID: 585479170
+      spriteID: 08bc9ed87fd3e304f95038a64aa95078
+      internalID: 1827060384
       vertices: []
       indices: 
       edges: []
@@ -624,30 +624,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Enigma Sprite Final_0: -258710535
-      Enigma Sprite Final_1: -750214792
-      Enigma Sprite Final_10: 600583537
-      Enigma Sprite Final_11: 565571757
-      Enigma Sprite Final_12: -723166309
-      Enigma Sprite Final_13: -1409123532
-      Enigma Sprite Final_14: 1854735133
-      Enigma Sprite Final_15: -2025950522
-      Enigma Sprite Final_16: -479610734
-      Enigma Sprite Final_17: -1433230992
-      Enigma Sprite Final_18: 760093533
-      Enigma Sprite Final_19: 593959290
-      Enigma Sprite Final_2: 224115995
-      Enigma Sprite Final_20: -1526026566
-      Enigma Sprite Final_21: -1609350176
-      Enigma Sprite Final_22: 1612557827
-      Enigma Sprite Final_23: 585479170
-      Enigma Sprite Final_3: 1658699301
-      Enigma Sprite Final_4: 618796306
-      Enigma Sprite Final_5: 875464879
-      Enigma Sprite Final_6: -677106473
-      Enigma Sprite Final_7: 1378674252
-      Enigma Sprite Final_8: -202134672
-      Enigma Sprite Final_9: -1669725368
+      Enigma Sprite(6)_0: -263902982
+      Enigma Sprite(6)_1: -1674991436
+      Enigma Sprite(6)_10: 1607244391
+      Enigma Sprite(6)_11: -2076319415
+      Enigma Sprite(6)_12: -259275323
+      Enigma Sprite(6)_13: 1162002545
+      Enigma Sprite(6)_14: -1853668996
+      Enigma Sprite(6)_15: 1566341644
+      Enigma Sprite(6)_16: 988798222
+      Enigma Sprite(6)_17: -72048869
+      Enigma Sprite(6)_18: -1301722057
+      Enigma Sprite(6)_19: 1226934775
+      Enigma Sprite(6)_2: -992813917
+      Enigma Sprite(6)_20: 2037190067
+      Enigma Sprite(6)_21: 581365227
+      Enigma Sprite(6)_22: -1325736189
+      Enigma Sprite(6)_23: 1827060384
+      Enigma Sprite(6)_3: 1250253821
+      Enigma Sprite(6)_4: 1824241815
+      Enigma Sprite(6)_5: -1643763500
+      Enigma Sprite(6)_6: -634763322
+      Enigma Sprite(6)_7: -1091915682
+      Enigma Sprite(6)_8: -397053656
+      Enigma Sprite(6)_9: 588096376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

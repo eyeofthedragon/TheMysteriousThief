@@ -176,6 +176,7 @@ public class GuardController : MonoBehaviour {
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
+        print("collided");
         if (collision.gameObject.tag == "Player") {
             uiController.GameOver();
         }

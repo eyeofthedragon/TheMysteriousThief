@@ -553,6 +553,7 @@ MonoBehaviour:
   lightsOff: {fileID: 8300000, guid: 934e13518251e4b4fa413ea68978bf9e, type: 3}
   lightsOn: {fileID: 8300000, guid: 442c9b16e7c113f4182572f070929989, type: 3}
   uiController: {fileID: 689711193}
+  displayInfo: {fileID: 11400000, guid: aa3a8d5c19dedf149985755bee44cace, type: 2}
 --- !u!82 &528082549
 AudioSource:
   m_ObjectHideFlags: 0

@@ -22,6 +22,10 @@ public class UIController : MonoBehaviour {
         StartCoroutine(fadeOut("MainMenu"));
     }
 
+    public void Settings() {
+        StartCoroutine(fadeOut("Settings"));
+    }
+
     public void Quit() {
         Application.Quit();
     }

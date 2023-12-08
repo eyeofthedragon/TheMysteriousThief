@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using System.Drawing.Printing;
 
 public class LanguageWindow : EditorWindow {
 
@@ -21,6 +22,8 @@ public class LanguageWindow : EditorWindow {
     string newValue = "";
 
     bool editKeysMode = false;
+
+    Vector2 scrollPos;
 
     [MenuItem("Window/Localization")]
     static public void ShowLanguageWindow() {
@@ -48,6 +51,10 @@ public class LanguageWindow : EditorWindow {
         string[] currentKeys = new List<string>(currentLanguage.languageDict.Keys).ToArray(); //used to keep track of keys when editing
 
         // Display language selection
+        //reset the language in case it was changed in game
+        currentLanguage = displayText.currentLanguage;
+        languageIndex = System.Array.IndexOf(listLanguages, currentLanguage);
+
         EditorGUILayout.BeginHorizontal();
         GUILayout.Label("Language");
         languageIndex = EditorGUILayout.Popup(languageIndex, listLanguageNames);
@@ -103,7 +110,7 @@ public class LanguageWindow : EditorWindow {
 
 
             GUILayout.Label("Text strings");
-
+            scrollPos = EditorGUILayout.BeginScrollView(scrollPos);
             // Display the keys and values for each entry in the dictionary
             for (int i = 0; i < currentLanguage.languageDict.Count; i++) {
                 EditorGUILayout.BeginHorizontal();
@@ -126,7 +133,7 @@ public class LanguageWindow : EditorWindow {
                 }
                 EditorGUILayout.EndHorizontal();
             }
-
+            EditorGUILayout.EndScrollView();
 
             if (!editKeysMode && !addKeyMode && GUILayout.Button("Add new entry")) {
                 addKeyMode = true;

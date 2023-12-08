@@ -15,7 +15,6 @@ MonoBehaviour:
   langName: English
   languageDict:
     m_keys:
-    - test
     - Enigma
     - thisIsIt
     - goOverPlan
@@ -38,15 +37,40 @@ MonoBehaviour:
     - beautifulCraft
     - justInTime
     - timeForShow
+    - language
+    - english
+    - french
+    - theMysteriousThief
+    - startGame
+    - quit
+    - gameOver
+    - restart
+    - mainMenu
+    - gameBy
+    - bgTiles
+    - tilesInfo
+    - bgArt
+    - artInfo
+    - uiAssets
+    - uiInfo
+    - tools
+    - toolsInfo
+    - sound
+    - soundInfo
+    - music
+    - musicInfo
+    - specialThanks
+    - thanksInfo
+    - resume
+    - paused
     m_values:
-    - Time to put on a show.
     - Enigma
     - This is it...
     - I should go over the plan.
     - I've got two minutes before I need to be back in the main concert hall for
       my performance.
-    - The door that the gem is locked behind has a fancy mechanism. It needs a code
-      to unlock, not just lockpicks. And they change the code every day.
+    - The door that the gem is locked behind has a sophisticated mechanism. It needs
+      a code to unlock, not just lockpicks. And they change the code every day.
     - Luckily, the concert hall owner has recently become convinced that her memory
       isn't very good.
     - Things not being where she left them... meetings not being at the times she
@@ -62,7 +86,7 @@ MonoBehaviour:
     - Got the code.
     - I don't like the look of that hallway, though...
     - There's a part where the hallway turns that doesn't seem very well lit. Maybe
-      if I walk up to it and press SHIFT I can slip into the shadows?
+      if I walk up to it and hold SHIFT I can slip into the shadows?
     - This is the mechanism for opening the door.
     - All I have to do is input the code I found by pressing E...
     - And there we go. Heh.
@@ -71,3 +95,33 @@ MonoBehaviour:
     - Looks like I'm just in time. If I head straight through here, I'll make it
       back to the main concert hall in time for my performance.
     - Time to put on a show.
+    - LANGUAGE
+    - English
+    - French
+    - THE MYSTERIOUS THIEF
+    - Start Game
+    - Quit
+    - GAME OVER!
+    - Restart
+    - Main Menu
+    - PROGRAMMING, DESIGN, SPRITES, WRITING
+    - BACKGROUND TILES
+    - Medieval pixel art asset by Blackspire\nClassic Legacy Pack - Village by Anomaly
+      Pixel
+    - BACKGROUND ART
+    - "2D Neighborhood by Afnan Mahin\\nEn sc\xE8ne by Anne Contet"
+    - UI ASSETS
+    - SteampunkUI by Gentleland
+    - TOOLS
+    - SerializableDictionary by Mathieu Le Ber\nDOTween by Demigiant\nxNode by Siccity
+    - SOUND
+    - Dialog Text Sound Effects by Alan Dalcastagne\nRPG Essentials Sound Effects
+      by leohpaz\nSpotlight by realsoundFX\nBig switch sound effect by Her Ses
+    - MUSIC
+    - Parallax Mix (New) 4 by Hayden Folker\nHorde Of Geese by Alexander Nakarada
+      (www.creatorchords.com)\nGame Over - Repeating Dream by Yakikaze\nAllegretto
+      by B. Godard, performed by Ion Bogdan Stefanescu
+    - SPECIAL THANKS
+    - Gateway Games LARP
+    - Resume
+    - PAUSED
